@@ -100,6 +100,6 @@ console.log('C', myArr); // Output: [0, 4, 5, 6]
 // ✅ Arrays can hold mixed data types in JS (e.g., numbers + strings + objects).
 
 // 🧠 Small Example:
-const mixed = [1, "hello", true, { name: "parth" }]
+const mixed = [1, "hello", true, { name: "parthu" }]
 console.log(mixed);
-// Output: [1, "hello", true, { name: "parth" }]
+// Output: [1, "hello", true, { name: "parthu" }]
