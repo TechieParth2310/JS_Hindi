@@ -8,14 +8,15 @@
 
 // 🔹 Singleton object → created using Object.create()
 const singletonObj = Object.create({})  
-// (rarely used directly in basic code)
+// (rarely used directly in basic code) 
+// agar constructor se bana toh hi object singleton banega.
 
 // 🔹 Object literal → most common way
 const mySym = Symbol("key1")   // Symbol → unique identifier key
 
 const JsUser = {
     name: "Hitesh",
-    "full name": "Hitesh Choudhary",  // key with space → must use quotes
+    "full name": "Hitesh Choudhary",  // key with space → must use quotes 
     [mySym]: "mykey1",                // computed property using Symbol
     age: 18,
     location: "Jaipur",
